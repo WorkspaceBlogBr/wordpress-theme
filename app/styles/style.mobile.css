@@ -1,0 +1,31 @@
+/* maior que 990px: normal */
+@media all and (max-width: 990px) {
+	.margem { 
+		margin: 0 5px;
+		width: 99%;
+	}
+}
+
+/* menor qe 820: retirar menu lateral */
+@media all and (max-width: 820px) {
+	#corpo nav { display:none }
+	
+	section#content { width: 99% } 
+}
+
+/* menor que 670: returar busca */
+@media all and (max-width: 670px) {
+	#buscar { display:none }
+}
+
+/* 550: ajustes no footer */
+@media all and (max-width: 550px) {
+	#footer_right{ float: left; }
+}
+
+/* menor que 400: redimentisonar logo */
+@media all and (max-width: 400px) {
+	div#header hgroup h1{
+		font-size: 300%;
+	}
+}

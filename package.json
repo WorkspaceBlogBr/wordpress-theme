@@ -1,0 +1,23 @@
+{
+  "name": "workspace-theme",
+  "version": "1.0.0",
+  "description": "Tema exclusivo do blog: workspace.blog.br",
+  "main": [
+    "dist/*"
+  ],
+  "repository": "https://github.com/WorkspaceBlogBr/wordpress-theme.git",
+  "author": "Fernando Falci",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^1.2.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-debug": "^2.1.0",
+    "gulp-header": "^1.7.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-jade-php": "^1.1.0",
+    "gulp-less": "^3.0.3",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-plumber": "^1.0.1"
+  }
+}
